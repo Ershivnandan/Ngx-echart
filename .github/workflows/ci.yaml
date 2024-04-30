@@ -22,7 +22,7 @@ jobs:
         if: success()
         uses: crazy-max/ghaction-github-pages@v3
         with:
-          target_branch: gh-pages
+          target_branch: master
           build_dir: dist/ngx-echarts-starter
           keep_history: false
           allow_empty_commit: true
